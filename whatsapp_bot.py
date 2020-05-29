@@ -14,7 +14,7 @@ class Bot:
     breakline = Keys.SHIFT + Keys.ENTER + Keys.SHIFT  # Keys.ENTER to give a new line effect in your Message
     MESSAGE = f"L’Oréal te presenta PeluqueriaAmiga, ¡tu oportunidad para estar en la web!{breakline}{breakline}" \
               f"Los consumidores podrán encontrar tu salón, y las promociones que quieras ofrecer.{breakline}{breakline}" \
-              f"Registrarte es súper fácil y no tiene costo para el salón🔥.{breakline}{breakline}" \
+              f"Registrarte es súper fácil y no tiene costo para el salón.{breakline}{breakline}" \
               f"Sumate ahora en www.peluqueriaamiga.uy o descárgate el instructivo aquí: {breakline}{breakline}{link}"
 
     def __init__(self):
